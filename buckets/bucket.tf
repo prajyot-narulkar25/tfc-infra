@@ -6,7 +6,6 @@ terraform {
       name = "buckets-s3-bucket"  # Change to your Terraform Cloud workspace name
     }
   }
-
   required_providers {
     aws = {
       source  = "hashicorp/aws"
