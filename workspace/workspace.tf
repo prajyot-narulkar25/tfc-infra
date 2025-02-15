@@ -23,7 +23,7 @@ variable "org_name" {
 }
 
 resource "tfe_workspace" "example" {
-  name         = "ec2-deploy"
+  name         = "buckets-s3-bucket"
   organization = var.org_name
 #   execution_mode = "remote"  # Options: remote, local, agent
 }
